@@ -1,0 +1,26 @@
+thead {
+  background-color: $lightRed;
+}
+
+th,
+td {
+  border: 2px solid $rossoCorsa;
+  border-collapse: collapse;
+  color: $black;
+}
+
+table {
+  @extend td;
+  width: 95%;
+  text-align: center;
+  box-shadow: 2px 2px 5px $lightGrey;
+  margin: 5% auto;
+}
+
+th {
+  color: white;
+}
+
+.type {
+  vertical-align: middle;
+}
